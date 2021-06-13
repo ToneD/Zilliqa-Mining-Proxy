@@ -28,7 +28,7 @@ tests_require = ["pytest"]
 install_requires = [
     "pyyaml", "jsonrpcserver", "aiohttp==3.7.4", "jsonrpcclient[aiohttp]",
     "mongoengine==0.18.2", "pymongo==3.9.0", "cachetools",
-    "fastecdsa", "pyethash", "eth-hash[pycryptodome]==0.2.0",
+    "fastecdsa", "pyethash", "eth-hash[pycryptodome]",
     "jinja2", "aiohttp_jinja2",
 ]
 
