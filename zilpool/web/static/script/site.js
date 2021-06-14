@@ -8,9 +8,9 @@ String.prototype.format = function() {
 
 function valid_hex_str(s, size) {
   s = $.trim(s).toLowerCase().replace(/"/gi, '').replace(/'/gi, '');
-  if (!s.startsWith("0x")) {
-    s = "0x" + s;
-  }
+  // if (!s.startsWith("0x")) {
+  //   s = "0x" + s;
+  // }
   if (s.length !== size) {
     return false;
   }

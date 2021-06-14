@@ -48,8 +48,8 @@ def init_apis(config):
 
 
 def miner_register(config, wallet_address, email, pass_code):
-    wallet_address = utils.valid_addr(wallet_address)
-    assert wallet_address, "invalid wallet address"
+    # wallet_address = utils.valid_addr(wallet_address)
+    # assert wallet_address, "invalid wallet address"
 
     email = utils.valid_email(email)
     assert email, "invalid email"
