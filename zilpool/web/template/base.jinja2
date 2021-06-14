@@ -109,7 +109,7 @@
             window.location.href = "{{ root_path }}miner/" + valid_address;
             return;
           }
-          let valid_pub_key = valid_hex_str(search_str, 68);
+          let valid_pub_key = valid_hex_str(search_str, 66);
           if (valid_pub_key) {
             window.location.href = "{{ root_path }}node/" + valid_pub_key;
             return;

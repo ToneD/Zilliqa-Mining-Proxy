@@ -462,7 +462,7 @@ function nodes_query(page) {
   let search_str = $.trim($("#node_email_or_key").val());
 
   if (search_str.length > 0) {
-    let valid_pub_key = valid_hex_str(search_str, 68);
+    let valid_pub_key = valid_hex_str(search_str, 66);
     if (valid_pub_key) {
       filters = {pub_key: valid_pub_key};
     } else {

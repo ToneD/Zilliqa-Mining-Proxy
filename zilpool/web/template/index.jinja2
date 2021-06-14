@@ -240,7 +240,7 @@
       if (pub_key.length === 0) {
         continue;
       }
-      let _pub_key = valid_hex_str(pub_key, 68);
+      let _pub_key = valid_hex_str(pub_key, 66);
       if (!_pub_key) {
         error_msg("#node_msg", "Invalid Node Public Key " + pub_key, "danger");
         return false;
